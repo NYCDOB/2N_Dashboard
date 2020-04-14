@@ -26,6 +26,15 @@
 	div.navbar-collapse ul.navbar-nav li.c3 a {
 		color: #8A8A8A;
 	}
+.chart-stage{
+	padding-top: 10px;
+}
+#chart-map{
+    box-sizing: border-box;
+    width: 100%;
+	height: 589px;
+    float: left;
+}
 #chart-01{
     box-sizing: border-box;
     width: 100%;
@@ -43,6 +52,7 @@
     width: 100%;
 	height: 600px;
     overflow-x: scroll;
+	overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
 }
 @media( max-width:1200px){
@@ -76,85 +86,85 @@
 
 	<div class="row">	
       <div class="col-sm-6 col-md-8">
-        <div class="chart-wrapper">
+        <!-- <div class="chart-wrapper"> -->
           <div class="chart-stage">
-            <div id="grid-1-1">
-			  <iframe width="100%" height="583px" frameborder="0" scrolling="no" src="https://public.tableau.com/views/2NAnalysis3/2NMap?:showVizHome=no&:embed=true"></iframe>			  
+            <div id="chart-map">
+			  <iframe width="100%" height="100%" frameborder="0" scrolling="no" src="https://public.tableau.com/views/2NAnalysis3/2NMap?:showVizHome=no&:embed=true"></iframe>			  
             </div>
           </div>
-        </div>
+        <!-- </div> -->
       </div>	  
       <div class="col-sm-6 col-md-4">
-        <div class="chart-wrapper">
+        <!-- <div class="chart-wrapper"> -->
           <div class="chart-stage" id="chart-01">
 			<iframe width="100%" height="100%" frameborder="0" scrolling="no" src="https://public.tableau.com/views/2NAnalysis3/NumberofComplaints?:showVizHome=no&:embed=true"></iframe>
           </div>
-        </div>
+        <!-- </div> -->
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="chart-wrapper">
+        <!-- <div class="chart-wrapper"> -->
           <div class="chart-stage" id="chart-01">
 			<iframe width="100%" height="100%" frameborder="0" scrolling="no" src="https://public.tableau.com/views/2NAnalysis3/NumberofOpenComplaints?:showVizHome=no&:embed=true"></iframe>
           </div>
-        </div>
+        <!-- </div> -->
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="chart-wrapper">
+        <!-- <div class="chart-wrapper"> -->
           <div class="chart-stage" id="chart-01">
 			<iframe width="100%" height="100%" frameborder="0" scrolling="no" src="https://public.tableau.com/views/2NAnalysis3/AverageBacklogDays?:showVizHome=no&:embed=true"></iframe>
           </div>
-        </div>
+        <!-- </div> -->
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="chart-wrapper">
+        <!-- <div class="chart-wrapper"> -->
           <div class="chart-stage" id="chart-01">
 			<iframe width="100%" height="100%" frameborder="0" scrolling="no" src="https://public.tableau.com/views/2NAnalysis3/AverageResponseTimeDays?:showVizHome=no&:embed=true"></iframe>
           </div>
-        </div>
+        <!-- </div> -->
       </div>	  
     </div>
 
 	<div class="row">
       <div class="col-sm-6 col-md-6">
-        <div class="chart-wrapper">
+        <!-- <div class="chart-wrapper"> -->
           <div class="chart-stage" id="chart-01">
 			<iframe width="100%" height="100%" frameborder="0" scrolling="no" src="https://public.tableau.com/views/2NAnalysis3/NumberofViolations?:showVizHome=no&:embed=true"></iframe>
           </div>
-        </div>
+        <!-- </div> -->
       </div>
       <div class="col-sm-6 col-md-6">
-        <div class="chart-wrapper">
+        <!-- <div class="chart-wrapper"> -->
           <div class="chart-stage" id="chart-01">
 			<iframe width="100%" height="100%" frameborder="0" scrolling="no" src="https://public.tableau.com/views/2NAnalysis3/NumberofStopWorkOrders?:showVizHome=no&:embed=true"></iframe>
           </div>
-        </div>
+        <!-- </div> -->
       </div>	
 	</div>
 	
 	<div class="row">
       <div class="col-sm-6 col-md-6">
-        <div class="chart-wrapper">
+        <!-- <div class="chart-wrapper"> -->
           <div class="chart-stage" id="chart-02">
 			<iframe width="100%" height="100%" frameborder="0" scrolling="no" src="https://public.tableau.com/views/2NAnalysis3/NumberofComplaintsbyDay?:showVizHome=no&:embed=true"></iframe>
           </div>
-        </div>
+        <!-- </div> -->
       </div>
       <div class="col-sm-6 col-md-6">
-        <div class="chart-wrapper">
+        <!-- <div class="chart-wrapper"> -->
           <div class="chart-stage" id="chart-02">
 			<iframe width="100%" height="100%" frameborder="0" scrolling="no" src="https://public.tableau.com/views/2NAnalysis3/NumberofInspectionsbyDay?:showVizHome=no&:embed=true"></iframe>
           </div>
-        </div>
+        <!-- </div> -->
       </div>	
 	</div>
 	
 	<div class="row">
       <div class="col-sm-12 col-md-12">
-        <div class="chart-wrapper">
+        <!-- <div class="chart-wrapper"> -->
           <div class="chart-stage" id="chart-03">
 			<iframe width="100%" height="100%" frameborder="0" style="overflow-y:hidden; overflow-x:scroll;" src="https://public.tableau.com/views/2NAnalysis3/CountofDispositionsbyType?:showVizHome=no&:embed=true"></iframe>
           </div>
-        </div>
+        <!-- </div> -->
       </div>	
 	</div>
 </div>
